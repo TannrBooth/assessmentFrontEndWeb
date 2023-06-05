@@ -1,0 +1,80 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+#profile-pic {
+	height: 300px;
+	box-shadow: 10px 10px 10px;
+}
+
+.insta {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: solid 5px black;
+	padding-bottom: 15px;
+	border-radius: 5px;
+	margin: 20px;
+	background-color: indianred;
+
+}
+
+.button {
+	border-radius: 5px;
+	background-color: white;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.button:hover {
+	background-color:burlywood;
+	color: white;
+}
+
+.favorite {
+	border-radius: 5px;
+	background-color: yellow;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.favorite:hover {
+	background-color:burlywood;
+	color: white;
+}
